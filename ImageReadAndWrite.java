@@ -15,6 +15,10 @@ public class ImageReadAndWrite {
 
 		// read image
 		try {
+			
+			//f = new File("D:\\Image\\Taj.jpg");
+      			//image = ImageIO.read(f);
+			//or
 			f = new File("C://Users//698675//Documents/mahendra.jpg"); // image file path
 			image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 			image = ImageIO.read(f);
